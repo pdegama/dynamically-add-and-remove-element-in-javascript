@@ -1,7 +1,7 @@
 const addItemText = (text) => {
     return `<div class="row">
         <div class="col-10">
-            <h2>${text}</h2>
+            <h2 class="text-light">${text}</h2>
         </div>
         <div class="col-2">
             <input type="submit" class="removeItem btn btn-danger w-100" value="Remove">
